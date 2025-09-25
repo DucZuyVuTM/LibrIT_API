@@ -645,6 +645,10 @@ components:
           type: string
           description: ISBN code of the book (optional)
           example: "978-0061122415"
+        status:
+          type: string
+          description: Status of the book - available or borrowed (optional)
+          example: "978-0061122415"
         description:
           type: string
           description: Brief description of the book (optional)
